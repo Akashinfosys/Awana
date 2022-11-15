@@ -19,6 +19,7 @@ System.setProperty("webdriver.chrome.driver", "C:\\chrome driver\\chromedriver_w
 		
 		act.moveToElement(target).click().perform();
 		
+		System.out.println("Hii");
 		
 	}
 
