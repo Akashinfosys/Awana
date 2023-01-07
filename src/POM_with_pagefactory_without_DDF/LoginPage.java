@@ -16,6 +16,7 @@ public class LoginPage {
 	public LoginPage(WebDriver driver) {
 		PageFactory.initElements(driver,this);
 	}
+	//Implementation
 	public void enterUN() {
 		UN.sendKeys("admin");
 	}

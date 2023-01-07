@@ -19,7 +19,7 @@ public class HomePage {
 		
 	    String actText = text.getText(); 
 		
-	    if(actText.equals(actText)) {
+	    if(expText.equals(actText)) {
 	    	System.out.println("TC is pass");
 	    }
 	    else {

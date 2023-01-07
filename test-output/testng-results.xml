@@ -1,39 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[running verify text]]>
+    </line>
   </reporter-output>
-  <suite started-at="2022-11-08T09:19:26 IST" name="Suite" finished-at="2022-11-08T09:21:37 IST" duration-ms="131524">
+  <suite started-at="2023-01-07T18:05:15 IST" name="Default suite" finished-at="2023-01-07T18:06:14 IST" duration-ms="58231">
     <groups>
     </groups>
-    <test started-at="2022-11-08T09:19:26 IST" name="Test1" finished-at="2022-11-08T09:20:30 IST" duration-ms="63733">
-      <class name="MultiBrowser_Testing.B">
-        <test-method signature="TC(java.lang.String)[pri:0, instance:MultiBrowser_Testing.B@4d465b11]" started-at="2022-11-08T09:19:26 IST" name="TC" finished-at="2022-11-08T09:20:29 IST" duration-ms="63634" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2023-01-07T18:05:15 IST" name="Default test" finished-at="2023-01-07T18:06:14 IST" duration-ms="58231">
+      <class name="POM_with_pagefactory_using_testng.Test">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:POM_with_pagefactory_using_testng.Test@43dac38f]" started-at="2023-01-07T18:05:16 IST" name="openBrowser" finished-at="2023-01-07T18:06:02 IST" duration-ms="46911" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC -->
-      </class> <!-- MultiBrowser_Testing.B -->
-    </test> <!-- Test1 -->
-    <test started-at="2022-11-08T09:19:26 IST" name="Test2" finished-at="2022-11-08T09:21:37 IST" duration-ms="131524">
-      <class name="MultiBrowser_Testing.B">
-        <test-method signature="TC(java.lang.String)[pri:0, instance:MultiBrowser_Testing.B@12aba8be]" started-at="2022-11-08T09:19:26 IST" name="TC" finished-at="2022-11-08T09:21:37 IST" duration-ms="131446" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:POM_with_pagefactory_using_testng.Test@43dac38f]" started-at="2023-01-07T18:06:02 IST" name="openApp" finished-at="2023-01-07T18:06:03 IST" duration-ms="734" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC -->
-      </class> <!-- MultiBrowser_Testing.B -->
-    </test> <!-- Test2 -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- openApp -->
+        <test-method signature="verifyText()[pri:0, instance:POM_with_pagefactory_using_testng.Test@43dac38f]" started-at="2023-01-07T18:06:03 IST" name="verifyText" finished-at="2023-01-07T18:06:14 IST" duration-ms="10522" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[running verify text]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyText -->
+      </class> <!-- POM_with_pagefactory_using_testng.Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
